@@ -4,32 +4,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-class Employee {
-
-	private String name;
-	private Double salary;
-
-	public Employee(String name, Double salary) {
-		this.name = name;
-		this.salary = salary;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public Double getSalary() {
-		return salary;
-	}
-	
-	@Override
-	public String toString() {
-		// TODO Auto-generated method stub
-		return salary + " " + name;
-	}
-
-}
-
 public class EvenThanSquare {
 
 	public static void main(String[] args) {
